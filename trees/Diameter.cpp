@@ -10,8 +10,8 @@ struct node {
     this->left = this->right = nullptr;
   }
 };
-// diameter of a tree is reffered to the largest distance between 2 node that
-// not necessarly passing from the root node.
+// diameter of a tree is referred to the largest distance between 2 node that
+// not necessarily passing from the root node.
 int diameter(node *root, int &dia) {
   if (root == nullptr)
     return 0;

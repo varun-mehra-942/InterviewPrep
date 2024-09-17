@@ -29,10 +29,10 @@ void IncrementValue(std::stack<std::pair<node *, int>> &s) {
   s.push(temp);
 }
 
-// we cant do temp.second++ as we cant direclty modify the values in stack we
-// first need to pop is annd then modify is
+// we cant do temp.second++ as we cant directly modify the values in stack we
+// first need to pop is and then modify is
 //
-// the idea is to keep track of each element using a integer attacked to the
+// the idea is to keep track of each element using a integer attached to the
 // element, if the count is 1 then we will push the element to the
 // pre(root,left,right) and increment the value of the integer
 void InPrePost(node *root) {
